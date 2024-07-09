@@ -119,7 +119,6 @@ A few notes about our workflow:
 - After the hotfix is merged into main, the version number should be updated to include the -dev suffix and the hotfix branch is merged back into dev
 - Feature branches should be kept up to date with dev to avoid future merge conflicts as a result of the branch growing stale
 - Commits may be made directly on any branch EXCEPT dev and main, which require pull requests and code reviews
-
 - Branches merging into dev require one code approval from a developer familiar with the codebase
 - For major projects, branches merging into main require two code approvals, at least one of which must be from a non-developer
 
