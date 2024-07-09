@@ -1,6 +1,8 @@
 # Security Policy
 
-> NOTE: This document is a work in progress as we work to find a safe and secure route to vulnerability reporting.
+```[!NOTE]
+This document is a work in progress as we work to find a safe and secure route to vulnerability reporting.
+```
 
 If you find a potential or confirmed vulnerability in the distributable code of this project, please DO NOT FILE AN ISSUE. Instead, please email the Director of Web Strategy directly with all technical details on how exactly to exploit the vulnerability and how that exploitation may be abused.
 
