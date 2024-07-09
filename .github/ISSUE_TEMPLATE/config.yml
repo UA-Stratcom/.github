@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Web Hub
+    url: https://web.ua.edu
+    about: The Web Hub is a collection of resources for web developers at UA.
+  - name: Support
+    url: https://github.com/UA-Stratcom/ua-theme_v3/blob/dev/.github/SUPPORT.md
+    about: More ways to get help from the web team.
