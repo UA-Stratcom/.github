@@ -14,7 +14,7 @@ What is the objective of this feature
 
 Is this feature meant to be added to the Minerva design system and made available to developers across campus?
 If so, is this feature meant to be made baseline available for users of the WordPress theme or added to the Advanced Blocks plugin for use within our department?
-If not, is this feature meant to be added to a specific site via child theme or plugin? If so, what site(s) are meant to revieve this feature?
+If not, is this feature meant to be added to a specific site via child theme or plugin? If so, what site(s) are meant to receive this feature?
 
 ## Mocks
 
