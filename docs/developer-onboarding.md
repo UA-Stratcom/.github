@@ -62,19 +62,16 @@ You can double check by cloning a repository from the organization and making a 
 
 - [UA VPN](https://oit.ua.edu/services/internet-networking/vpn/)
 - [Docker](https://www.docker.com/)
-- [Bruno](https://www.usebruno.com/)
-- [Microsoft Remote Desktop](https://apps.apple.com/us/app/microsoft-remote-desktop/id1295203466?mt=12)
 
 While not required, it is recommended to use [Visual Studio Code](https://code.visualstudio.com/) and the following extensions:
 
 - [Comment Anchors](https://marketplace.visualstudio.com/items?itemName=ExodiusStudios.comment-anchors)
-- [GitHub Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview)
 
-More extentions may be required / recommended by repositories
+More extensions may be required / recommended by repositories
 
-### Broswers
+### Browsers
 
-You may use whatever browser you want but you must have the ability to test on Chrome, Firefox, and Safari
+You may use whatever browser you want but you must have the ability to test on Chrome, Firefox, and Safari.
 
 You may find these extensions helpful
 
@@ -85,12 +82,18 @@ You may find these extensions helpful
 
 It can be helpful to create a folder to store most repositories you're working on in one place. We recommend using a "Developer" folder in your home directory.
 
-1. Create a "Developer" folder in your home folder
-2. Inside "Developer" create a folder called "wordpress"
-3. Inside "wordpress" create two folders named "themes" and "plugins"
-4. Inside the "themes" folder, clone the theme repositories
-5. Inside the "plugins" folder, clone the plugin repositories
-6. Inside the "Developer" folder, create a folder called "sites" This is where you'll clone any sites from Pantheon
-7. Inside the "Developer" folder, you may also clone any other repository or clone them in subfolders of your preference
+```
+~/Developer/
+├── wordpress/
+│   ├── wp-env (https://github.com/UA-Stratcom/wp-env)
+│   ├── themes/
+│   │   └── theme repositories
+│   └── plugins/
+│       └── plugin repositories
+├── sites/
+│   └── site specific repositories
+└── projects/
+    └── misc repositories, upstream products, etc
+```
 
 To get child themes to work, download the latest version of theme 3 from <https://alabama.box.com/s/f3os9nh59u5ie4hppdxo536po2ybto96> and unzip it into the "themes" folder
